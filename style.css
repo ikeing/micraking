@@ -1,64 +1,50 @@
 * {
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 header {
-  background-color: green;
+  background-color: darkgreen;
   height: 500px;
   background-image: url(top.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
 }
 
 h1 {
-  text-align: center;
   color: white;
   padding-top: 200px;
-  padding-right: 350px;
+  text-align: center;
+  padding-right: 440px;
+  font-size: 36px;
 }
 
 .topNav {
   margin-top: 200px;
+  text-align: center;
 }
+
 .topNav ul {
   display: flex;
   justify-content: space-between;
-  color: white;
   width: 600px;
   margin: 0 auto;
   list-style: none;
 }
 
 .topNav ul a {
-  border-radius: 5px;
-  box-shadow: 10px 5px 5px rgba(0,0,0,0.5);
-  color: green;
-  text-decoration: none;
-  background-color: white;
-  padding: 10px 15px;
-  border: green 1px solid;
-  transition: all 0.5s ease-in-out;
-}
-
-.topNav ul a:hover {
   color: white;
-  box-shadow: none;
-  background-color: green;
 }
 
-
-
-article {
+article{
   width: 960px;
   margin: 50px auto;
 }
 
 section h3 {
-  font-size: 28px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 32px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
@@ -77,26 +63,6 @@ footer {
   text-align: center;
   padding: 30px;
 }
-
-.kingImg {
-  position: absolute;
-  bottom: 50%;
-  left: 70%;
-  animation: kaiten 1s ease infinite;
-}
-
-@keyframes kaiten {
-  0% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(-10deg);
-  }
-}
-
 
 
 
