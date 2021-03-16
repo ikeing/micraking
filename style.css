@@ -33,7 +33,16 @@ h1 {
 }
 
 .topNav ul a {
+  text-decoration: none;
+  background-color: white;
+  color: green;
+  padding: 10px 15px;
+  border: green 1px solid;
+}
+
+.topNav ul a:hover {
   color: white;
+  background-color: green;
 }
 
 article{
@@ -64,22 +73,31 @@ footer {
   padding: 30px;
 }
 
+
 .creeper {
   position: absolute;
   top: 200px;
   left: calc(50% + 200px);
-  animation: creeper 1.5s ease-in-out infinite alternate;
-  
+  animation: creeper 2s ease-in-out infinite alternate;
 }
 
 @keyframes creeper {
   0% {
-    transform: translateY(30px);
-  }
-  100% {
     transform: translateY(-30px);
   }
+  100%{
+    transform: translateY(30px);
+  }
 }
+
+
+
+
+
+
+
+
+
 
 
 
